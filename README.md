@@ -9,6 +9,6 @@ Este repositório é dedicado aos estudos do JavaScript do curso **"JavaScript-C
  - Javascript moderno
 
 
- ## Documentação do aprendizado
+ ### Documentação do aprendizado:
 [JavaScript Puro — Parte 1: Variáveis, Arrays e Condicionais](https://medium.com/@atom.free/javascript-puro-parte-1-vari%C3%A1veis-arrays-e-condicionais-a546074163fa)
 Loading...
