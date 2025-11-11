@@ -1,0 +1,46 @@
+<html>
+  <body>        
+    <script>
+      /*
+        // Declaração da função
+        function testes(){
+            console.log('Chamando a função!');
+        }
+        testes(); // Chamada da função  
+
+        // Função com parâmetro
+        function testes2(nome,idade){
+            console.log('Nome informado: ' + nome);
+            console.log('Idade informada: ' + idade);
+            console.log('----------');
+        }
+        testes2("Atom", 27); // Chamada da função com 1º argumento
+        testes2("Hórus", 7); // Chamada da função com 2º argumento
+    
+        // Função com retorno
+        function pegarNome(){
+            return "Atom";
+
+            console.log("testeReturn"); // Código após o return não será executado
+        }
+
+        var nomeUsuario = pegarNome(); // Armazenando o valor retornado em uma variável
+
+        console.log('Nome retornado pela função: ' + nomeUsuario);
+
+        */
+        // Função com parâmetro e retorno com condicional
+        function pegarNome(parametro){
+            if(parametro === 1){
+                return "Ethan";
+            } else {
+                return "Outro nome";
+            }
+        }
+
+        var nome2 = pegarNome(1); // Passando argumento para a função
+        console.log('Nome retornado pela função: ' + nome2); // Exibindo o valor retornado
+    
+    </script>
+  </body>
+</html>
