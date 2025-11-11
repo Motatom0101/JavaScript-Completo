@@ -13,6 +13,7 @@ Cada tema terá seu diretório com os arquivos de código.
 
  ### Documentação do aprendizado:
  Abaixo, temos artigos no Medium onde documentei o 'hands-on' no desenvolvimento dos códigos neste repositório:
+
 [JavaScript Puro — Parte 1: Variáveis e Arrays](https://medium.com/@atom.free/javascript-puro-parte-1-vari%C3%A1veis-arrays-e-condicionais-a546074163fa)
 
 Loading...
