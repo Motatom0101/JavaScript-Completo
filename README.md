@@ -8,7 +8,7 @@ Este repositório é dedicado aos estudos do JavaScript do curso **"JavaScript-C
  - Manipulação do DOM
  - Javascript moderno
 
-   Cada tema terá seu diretório com os arquivos de código.
+Cada tema terá seu diretório com os arquivos de código.
 
 
  ### Documentação do aprendizado:
