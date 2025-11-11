@@ -5,7 +5,7 @@ Este repositório é dedicado aos estudos do JavaScript do curso **"JavaScript-C
 
  - Lógica de Programação
  - Orientação a Objetos com JS
- - Dominando a manipulação do DOM
+ - Manipulação do DOM
  - Javascript moderno
 
 
