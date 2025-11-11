@@ -5,15 +5,29 @@
        // Declaração de variáveis
        var numero = 10
        var nome = 'Atom'
-
+        
          // Condicional 'if'
        if(nome === 'Hórus'){
             console.log('O nome é Hórus!');
-         // 2ª Condicional 'else if', caso a 
+
+         // 2ª Condicional 'else if', caso a variável 'nome' seja igual a 'Atom'
          }else if(nome === 'Atom'){         
             console.log('O nome é Atom!');
          }
-         
+        
+            // Condicional simples 'if' e 'else': Comparando se o número é maior que 5
+        if(numero > 5){
+            console.log('O número é maior que 5');
+         }else{
+            console.log('O número é menor ou igual a 5');
+         }
+        
+        // Condicional composta com '&&' (E)
+        if(numero === 10 && nome === 'Atom'){
+            console.log('Número é 10 e nome é Atom!');
+         }else{
+            console.log('Condição não satisfeita!');
+         }
     </script>
   </body>
 </html>
