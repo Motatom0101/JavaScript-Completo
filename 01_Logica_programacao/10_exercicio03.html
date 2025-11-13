@@ -16,6 +16,24 @@
         }
         //Queremos um número final do usuário. O 'ParseFloat' converte a string digitada em número decimal
         let numeroFinal = parseFloat(prompt("Digite o número final: "));
+
+        // Variável para armazenar o resultado final
+        let resultadoFinal = 0;
+
+        // Realizando a operação conforme o operador digitado
+        if(operacao == '+'){
+            resultadoFinal = numeroInicial +  numeroFinal;
+        } else if(operacao == '-'){
+            resultadoFinal = numeroInicial -  numeroFinal;
+        } else if(operacao == '*'){
+            resultadoFinal = numeroInicial *  numeroFinal;
+        } else if(operacao == '/'){
+            resultadoFinal = numeroInicial /  numeroFinal;
+        }
+        
+        // Exibindo o resultado final em um alert
+        alert("O resultado da operação é: " + resultadoFinal);
+
         
     </script>
   </body>
