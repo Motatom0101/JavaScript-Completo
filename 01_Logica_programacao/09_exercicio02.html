@@ -4,6 +4,12 @@
         // Programa para calcular idade
         // Armazendo ano de nascimento digitado pelo usuário na variável 'anoNascimento'
         let anoNascimento = prompt("Digite seu ano de nascimento:");
+
+        // loop para verificar se o ano de nascimento é maior ou igual a 2008
+        while(anoNascimento >= 2008){
+            alert('Por favor, informe o ano de nascimento correto.');
+            anoNascimento = prompt("Digite seu ano de nascimento:");
+        }
         // Armazendo ano atual digitado pelo usuário na variável 'anoAtual'
         let anoAtual = prompt("Digite o ano atual:");
         // Calculando a idade subtraindo anoAtual - anoNascimento e exibindo o resultado em um alert
