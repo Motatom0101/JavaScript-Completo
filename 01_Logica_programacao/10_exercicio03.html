@@ -1,0 +1,22 @@
+<html>
+  <body>        
+    <script>
+        // Calculadora dinâmica
+
+        //Queremos um número inicial do usuário. O 'ParseFloat' converte a string digitada em número decimal
+        let numeroInicial = parseFloat(prompt("Digite o número inicial: "));
+
+        //Queremos uma operação (+, -, *, /)
+        let operacao = prompt("Digite a operação (+, -, *, /): ");
+
+        // Verificação se a operação digitada é válida
+        while(operacao != "+" && operacao != "-" && operacao != "*" && operacao != "/"){
+            alert("Operação inválida! Por favor, digite uma operação válida.");
+            operacao = prompt("Digite a operação (+, -, *, /): ");
+        }
+        //Queremos um número final do usuário. O 'ParseFloat' converte a string digitada em número decimal
+        let numeroFinal = parseFloat(prompt("Digite o número final: "));
+        
+    </script>
+  </body>
+</html>
