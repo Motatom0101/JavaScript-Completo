@@ -37,5 +37,9 @@ Cada tema terá seu diretório com os arquivos de código.
     - Código: [Calculadora de idade](https://github.com/Motatom0101/JavaScript-Completo/blob/main/01_Logica_programacao/09_exercicio02.html).
     
     - Código: [Calculadora dinâmica](https://github.com/Motatom0101/JavaScript-Completo/blob/main/01_Logica_programacao/10_exercicio03.html).
+      
+- Artigo: [JavaScript Puro — Parte 4: Orientação a Objetos](https://medium.com/@atom.free/javascript-puro-parte-4-orienta%C3%A7%C3%A3o-a-objetos-02cc0b318758?postPublishedType=initial)
+    - Código: [Objetos](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/01_objetos.html)
+    - Código: [funcoes-instancias](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/02_funcoes-instancias.html)
 
 Loading...
