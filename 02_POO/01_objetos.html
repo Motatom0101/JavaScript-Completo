@@ -2,15 +2,26 @@
     <body>
         <script>
             // Definindo um objeto em JavaScript
-            const pessoa = {
+            const pessoas = [{
                 nome: "Tiago",
                 idade: 38,
                 profissao: "QA Engineer"
-            };
-            // Acessando propriedades do objeto
-            console.log("Nome:", pessoa.nome);
-            console.log("Idade:", pessoa.idade);
-            console.log("Profissão:", pessoa.profissao);
+            },
+            {
+                nome: "Ana",
+                idade: 28,
+                profissao: "Desenvolvedora"
+            }];
+
+            // Acessando propriedades do 1ºobjeto
+            console.log("Nome:", pessoas[0].nome);
+            console.log("Idade:", pessoas[0].idade);
+            console.log("Profissão:", pessoas[0].profissao);
+
+            // Acessando propriedades do 2ºobjeto
+            console.log("Nome:", pessoas[1].nome);
+            console.log("Idade:", pessoas[1].idade);
+            console.log("Profissão:", pessoas[1].profissao);
         </script>
     </body>
 </html>
