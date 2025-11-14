@@ -3,10 +3,10 @@
 
 Este repositório é dedicado aos estudos do JavaScript do curso **"JavaScript-Completo"** da Danki Code Cursos. Aqui veremos os seguintes temas:
 
- - Lógica de Programação
- - Orientação a Objetos com JS
- - Manipulação do DOM
- - Javascript moderno
+ - **Lógica de Programação**
+ - **Orientação a Objetos** com JS
+ - **Manipulação do DOM**
+ - **Javascript moderno**
 
 Cada tema terá seu diretório com os arquivos de código.
 
