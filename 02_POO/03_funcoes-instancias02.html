@@ -5,13 +5,14 @@
             function pessoa(){
                 this.nome = "Atom";  
                 this.idade = 38;
-                this.printNome = functio(){
+                this.printNome = function(){
                     alert(this.nome);
                 }
             }
-            // Instanciação do objeto a partir da função 'pessoa'.
+            // Instanciação do objeto a partir da função 'pessoa'
             let p1 = new pessoa();
-        
-        </script>
+
+            p1.printNome();
+        </script> 
     </body>
 </html>
