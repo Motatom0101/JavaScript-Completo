@@ -6,12 +6,16 @@
                 constructor(name){ // Método construtor com parâmetro
                     this.nome = name; // atributo recebendo o parâmetro do método construtor
                 }
+
+                printNome(){
+                    return this.nome
+                }
             }
 
             animal = new Animal('Gato'); // Objeto 1
             aninal2 = new Animal('Lobo') // Objeto 2
             // Chamando os atributos dos 2 objetos
-            alert(animal.nome +' & '+ aninal2.nome); 
+            alert(animal.printNome() +' & '+ aninal2.printNome()); 
 
 
         </script>
