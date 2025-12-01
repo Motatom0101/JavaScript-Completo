@@ -2,22 +2,28 @@
     <body>
         <script>
             // Classe Animal
-            class Animal{
-                constructor(name){ // Método construtor com parâmetro
-                    this.nome = name; // atributo recebendo o parâmetro do método construtor
+            class AnimalB{
+                // Ambos: parâmetro 'nome' e atributo 'this.nome'
+                constructor(nome){
+                    this.nome = nome;
                 }
 
                 printNome(){
-                    return this.nome
+                    return this.nome;
+                }
+            }
+            // Extendendo a classe Cachorro da AnimalB 
+            class Cachorro extends AnimalB{
+                constructor(nome){
+                    super(nome);
+
                 }
             }
 
-            animal = new Animal('Gato'); // Objeto 1
-            aninal2 = new Animal('Lobo') // Objeto 2
-            // Chamando os atributos dos 2 objetos
-            alert(animal.printNome() +' & '+ aninal2.printNome()); 
-
-
+            dog = new Cachorro('Husky'); // Objeto a partir da classe extendida
+            
+            
+            alert(dog.printNome()); 
         </script>
     </body>
 </html>
