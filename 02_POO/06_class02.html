@@ -16,14 +16,17 @@
             class Cachorro extends AnimalB{
                 constructor(nome){
                     super(nome);
+                    this.raca = "Husky";
+                }
 
+                printRaca(){
+                    return this.raca;
                 }
             }
 
-            dog = new Cachorro('Husky'); // Objeto a partir da classe extendida
+            dog = new Cachorro(); // Objeto a partir da classe extendida
             
-            
-            alert(dog.printNome()); 
+            alert(dog.printRaca()); 
         </script>
     </body>
 </html>
