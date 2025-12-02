@@ -1,4 +1,4 @@
-# JavaScript-Completo
+# JavaScript Puro (Vanilla)
 [![Skills](https://api.devicons.dev.br/icon?icons=JavaScript%2CVSCode&size=48&theme=light&perline=30)](https://devicons.dev.br/)
 
 Este repositório é dedicado aos estudos do JavaScript do curso **"JavaScript-Completo"** da Danki Code Cursos. Aqui veremos os seguintes temas:
