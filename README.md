@@ -42,4 +42,10 @@ Cada tema terá seu diretório com os arquivos de código.
     - Código: [Objetos](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/01_objetos.html)
     - Código: [funcoes-instancias](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/02_funcoes-instancias.html)
 
+- Artigo: [JavaScript Puro — Parte 4: Orientação a Objetos 02 — Class](https://medium.com/@atom.free/javascript-puro-parte-4-orienta%C3%A7%C3%A3o-a-objetos-02-class-e7db4a4f58b2?postPublishedType=initial)    
+    - Código: [03_funcoes-instancias02.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/03_funcoes-instancias02.html)
+    - Código: [05_class.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/05_class.html)
+    - Código: [06_class02.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/06_class02.html)
+  
+
 Loading...
