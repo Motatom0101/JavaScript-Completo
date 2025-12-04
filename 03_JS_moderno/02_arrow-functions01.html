@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <script>
+            class Pessoa {
+                constructor() {
+                    this.idade = 20;
+    }
+
+    // Método que tenta envelhecer (operação assíncrona)
+    envelhecerNormal() {
+        console.log(`Idade antes do timer: ${this.idade}`); // ✅ this.idade = 20
+
+        // Chamada assíncrona (Simula uma API ou timeout)
+        setTimeout(function() {
+            // ❌ AQUI O 'this' MUDOU!
+            // 'this' agora refere-se ao objeto global (window) ou é 'undefined'
+            // no modo estrito, e não mais à instância da Pessoa.
+            this.idade++; 
+            console.log(`Idade APÓS 1s: ${this.idade}`); 
+        }, 1000);
+    }
+}
+
+const joao = new Pessoa();
+// joao.envelhecerNormal(); 
+
+// Resultado no console após 1s:
+// Idade antes do timer: 20
+// Idade APÓS 1s: NaN (ou 21 no global, se não estiver em strict mode)
+// **O objeto João não foi atualizado corretamente!**
+        </script>
+    </body>
+</html>
