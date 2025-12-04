@@ -1,7 +1,33 @@
 <html>
     <body>
         <script>
-         
+            class Pessoa {
+                constructor() {
+                    this.idade = 20;
+                }
+
+    // Método que envelhece corretamente (operação assíncrona)
+    envelhecerCorreto() {
+        console.log(`Idade antes do timer: ${this.idade}`); // ✅ this.idade = 20
+
+        // Chamada assíncrona com Arrow Function
+        setTimeout(() => {
+            // ✅ A Arrow Function não cria seu próprio 'this'.
+            // Ela 'captura' o this do escopo onde foi definida (o método envelhecerCorreto)
+            // O this ainda refere-se à instância do objeto 'joao'.
+            this.idade++; 
+            console.log(`Idade APÓS 1s: ${this.idade}`);
+        }, 1000);
+    }
+}
+
+const joao = new Pessoa();
+joao.envelhecerCorreto();
+
+// Resultado no console após 1s:
+// Idade antes do timer: 20
+// Idade APÓS 1s: 21 
+// **O objeto João foi atualizado corretamente!**
         </script>
     </body>
 </html>
