@@ -1,11 +1,29 @@
 <html>
     <body>
         <script>
+            // 1ª Situação:
             // Arrow function SEM PARAMETRO, mas com output com mensagem
             const testes = () => {
                 alert('Olá, mundo!');
             }
-            testes()
+            testes();
+
+            // 2ª Situação:
+            // Arrow function COM PARAMETRO
+            const testes1 = (par) => { //recebendo parâmetro 'par'
+                alert(par); // Output do parâmetro
+            }
+            testes1('Olá, mundo!'); // Recebe argumento por conta do parâmetro na arrow function
+            
+            // 3ª Situação:
+            // Arrow function COM PARAMETRO mais complexa
+            // Aqui estamos chamando a função 'par()', que é um parâmetro
+            const testes2 = (par) => { // Arrow function com parâmetro
+                par(); // Chamando à função que é um parâmetro
+            }
+            testes2(() => { //chamando a Arrow function, tendo como argumento outra arrow function com alert
+                alert('Olá, mundo!');
+            });
 
         </script>
     </body>
