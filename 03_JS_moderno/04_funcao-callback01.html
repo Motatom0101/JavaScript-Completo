@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <script>
+            // O nome que daremos ao nosso callback (função de retorno)
+            function dizerOi() {
+                console.log("Olá! Fui executado depois do atraso.");
+            }
+
+            // setTimeout é a função hospedeira
+            setTimeout(
+                dizerOi, // <-- 1º Argumento: A função CALLBACK (dizerOi)
+                2000     // <-- 2º Argumento: O momento (2 segundos)
+            );
+
+            console.log("Este código executa primeiro, sem esperar.");
+
+            // ORDEM DE EXECUÇÃO NO CONSOLE:
+            // 1. Este código executa primeiro, sem esperar.
+            // 2. [2 segundos de espera]
+            // 3. Olá! Fui executado depois do atraso.
+        </script>
+    </body>
+</html>
