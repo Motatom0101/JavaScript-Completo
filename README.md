@@ -52,7 +52,7 @@ Cada tema terá seu diretório com os arquivos de código.
 
 - **Artigo 07**: [JavaScript Puro — Parte 5: JS Moderno I](https://medium.com/@atom.free/javascript-puro-parte-4-js-moderno-i-d17952691ab4?postPublishedType=repub)
 
-Dando continuidade aos estudos em JS Puro da Danki Code, agora veremos algums temos no JS moderno (ES6+) como:
+Dando continuidade aos estudos em JS Puro da Danki Code, agora veremos alguns temas no JS moderno (ES6+) como:
 
  - Template Strings;
  - Block Scopes;
