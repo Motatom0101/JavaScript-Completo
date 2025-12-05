@@ -46,9 +46,9 @@ Cada tema terá seu diretório com os arquivos de código.
 
   Neste artigo, veremos mais um pouco da forma antiga do JavaScript lidar com POO, que é com a função construtora. Em seguida, veremos a forma mais moderna usando Classes, atributos, métodos e o conceito de herança, com a classe pai e filho.
   
-    - Código: [03_funcoes-instancias02.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/03_funcoes-instancias02.html)
-    - Código: [05_class.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/05_class.html)
-    - Código: [06_class02.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/06_class02.html)
+    - Código: [funcoes-instancias02.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/03_funcoes-instancias02.html)
+    - Código: [class.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/05_class.html)
+    - Código: [class02.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/02_POO/06_class02.html)
 
 - **Artigo 07**: [JavaScript Puro — Parte 5: JS Moderno I](https://medium.com/@atom.free/javascript-puro-parte-4-js-moderno-i-d17952691ab4?postPublishedType=repub)
 
@@ -66,11 +66,11 @@ Dando continuidade aos estudos em JS Puro da Danki Code, agora veremos alguns te
  - Relação de assincronicidade com APIs;
  - Função de Callback.
   
-    - Código: [01_template-strings.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/01_template-strings.html)
-    - Código: [02_arrow-functions01.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/02_arrow-functions01.html)
-    - Código: [03_arrow-functions02.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/03_arrow-functions02.html)
-    - Código: [04_arrow-functions03.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/04_arrow-functions03.html)
-    - Código: [04_funcao-callback01.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/04_funcao-callback01.html)
+    - Código: [template-strings.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/01_template-strings.html)
+    - Código: [arrow-functions01.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/02_arrow-functions01.html)
+    - Código: [arrow-functions02.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/03_arrow-functions02.html)
+    - Código: [arrow-functions03.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/04_arrow-functions03.html)
+    - Código: [funcao-callback01.html](https://github.com/Motatom0101/JavaScript-Completo/blob/main/03_JS_moderno/04_funcao-callback01.html)
   
 
 Loading...
