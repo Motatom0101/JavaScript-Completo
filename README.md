@@ -5,8 +5,8 @@ Este repositório é dedicado aos estudos do JavaScript do curso **"JavaScript-C
 
  - **Lógica de Programação**
  - **Orientação a Objetos** com JS
- - **Manipulação do DOM**
- - **Javascript moderno**
+ - **Javascript Moderno**
+ - **JavaScript Funcionnal**
 
 Cada tema terá seu diretório com os arquivos de código.
 
